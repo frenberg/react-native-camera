@@ -138,8 +138,8 @@ public class RNDocumentDetector {
 
         Collections.sort(contours, contourAreaComparator);
 
-        if (contours.size() > 10) {
-            return contours.subList(0, 10);
+        if (contours.size() > 20) {
+            return contours.subList(0, 20);
         }
         return contours;
     }
